@@ -1,6 +1,6 @@
-public class Main {
+public class Bubblesort {
 
-    void BubbleSort(int arr[]){
+    void Bubblesort(int arr[]){
 
         int n = arr.length;
         for (int i = 0; i < n-1; i++)
@@ -24,9 +24,9 @@ public class Main {
 
     public static void main(String args[]){
 
-        Main ob = new Main();
+        Bubblesort ob = new Bubblesort();
         int arr[] = {94, 34, 25, 12, 22, 11, 80};
-        ob.BubbleSort(arr);
+        ob.Bubblesort(arr);
         System.out.println("Sorted array");
         ob.printArray(arr);
     }
